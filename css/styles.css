@@ -1,0 +1,40 @@
+:root {
+    --bluecolor: #2196f3;
+    --whitecolor: #ffffff;
+    --maincolor: #212121;
+}
+body {
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    color: var(--maincolor);
+}
+.maintitle {
+    font-family: 'Raleway', sans-serif;
+    color: var(--bluecolor);
+}
+.buttonmain {
+    cursor: pointer;
+    background: var(--bluecolor);
+    color: var(--whitecolor);
+    width: 200px;
+    height: 50px;
+}
+.hero {
+    background: #2f303a;
+}
+.herotitle {
+    color: var(--whitecolor);
+    text-align: center;
+}
+.filtrbutton {
+    cursor: pointer;
+    background-color: #f5f4fa;
+    color: var(--maincolor);
+}
+.filtrbutton:hover, .filtrbutton:focus {
+    cursor: pointer;
+    background-color: var(--bluecolor);
+    color: var(--whitecolor); 
+}
+.titletextcolor {
+    color: var(--maincolor);
+}
